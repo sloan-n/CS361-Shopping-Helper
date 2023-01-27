@@ -1,0 +1,34 @@
+Shopping Helper command list:
+
+'help'                                  view all commands
+'new <shopping list name>'              create new shopping list
+'view'                                  view with 3 possible arguments
+        <all>                           view all shopping lists
+        <c>                             view all categories
+        <s>                             view all stores
+
+'view [-c -s] <shopping list name>'     view shopping list
+                                        optional flags (only one): 
+                                        -c view by category
+                                        -s view by stores
+
+'add [-c -s] <item name>'               add item by item name
+                                        optional flags:
+                                        -c prompted to add category
+                                        -s prompted to add stores
+
+'edit [-n -c -s] <item index>           edit item by index
+                                        atleast one flag required:
+                                        -n prompted to update name
+                                        -c prompted to update category
+                                        -s prompted to update stores
+
+'delete <item index>'                   delete item by index
+
+'check <item index>'                    mark item as checked by index
+
+'need <item index>'                     uncheck item to return to shopping list by index
+
+'exit'                                  exit the Shopping Helper
+
+      

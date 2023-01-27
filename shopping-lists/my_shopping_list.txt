@@ -1,0 +1,5 @@
+1 corn - groceries - Safeway
+2 bread - groceries - Safeway
+3 paper towel - home goods - Costco
+4 Tylenol - health - Target
+5 ice cream - groceries - Costco
